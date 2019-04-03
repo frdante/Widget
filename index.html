@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf8">
+    <title>Space Widget Demo</title>
+    <script src="https://code.s4d.io/widget-space/production/bundle.js"></script>
+    <link rel="stylesheet" href="https://code.s4d.io/widget-space/production/main.css">
+  </head>
+  <body>
+    <div id="my-webexteams-widget" style="width: 500px; height: 500px;"/>
+    <script>
+      var widgetEl = document.getElementById('my-webexteams-widget');
+      // Init a new widget
+      ciscospark.widget(widgetEl).spaceWidget({
+        accessToken: 'NTZe7e',
+        destinationId: 'Y2lzY29zcGFyazovL3VzL1JPT00vMWE1MWVkOTAtN2Y5ZC0xMWU4LWJjNGEtNGZlYzg0YTY3Njk4',
+        destinationType: 'spaceId'
+      });
+    </script>
+  </body>
+</html>
